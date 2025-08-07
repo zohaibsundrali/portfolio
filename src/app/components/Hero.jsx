@@ -32,7 +32,7 @@ export default function Hero() {
   return (
 <section
   id="hero"
-  className="relative overflow-hidden bg-[#0D1224] text-white  lg:h-[90vh] md:h-[130vh] sm:h-[135vh] h-[142vh]"
+  className="relative overflow-hidden bg-[#0D1224] text-white  lg:h-[90vh] md:h-[130vh] sm:h-[135vh] h-[146vh]"
 >
 
 
@@ -125,7 +125,7 @@ export default function Hero() {
               href="#contact"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
-              className="group px-6 py-3 rounded-full font-semibold flex items-center gap-2 justify-center transition-all duration-300"
+              className="group sm:px-6 sm:py-3 py-2 px-3  text-[12px] sm:text-[16px] rounded-full font-semibold flex items-center gap-2 justify-center transition-all duration-300"
               style={{
                 border: '2px solid #EC4899',
                 color: isHovered ? '#ffffff' : '#EC4899',
@@ -146,7 +146,7 @@ export default function Hero() {
                 backgroundColor: '#EC4899',
                 color: '#ffffff',
               }}
-              className="group px-6 py-3 rounded-full font-semibold shadow hover:opacity-90 transition duration-300 flex items-center gap-2 justify-center"
+              className="group sm:px-6 sm:py-3 py-1 px-3 text-[12px] sm:text-[16px] rounded-full font-semibold shadow hover:opacity-90 transition duration-300 flex items-center gap-2 justify-center"
             >
               Download Resume
               <HiDownload
