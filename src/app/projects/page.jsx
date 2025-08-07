@@ -1,14 +1,15 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
+import About from "../about/page";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
+
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
+<Navbar/>
+      <Hero/>
+      <About/>
       <Projects/>
     </>
   );
