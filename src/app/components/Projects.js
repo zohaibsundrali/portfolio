@@ -76,7 +76,7 @@ export default function Projects() {
 
 
       <div className='w-full '>
-<p className='text-gray-300 lg:text-[18px] text-[14px] text-center lg:w-[40%] sm:w-[60%] w-[80%] mx-auto mb-10 '>Discover my latest projects that reflect my dedication to crafting innovative solutions and redefining what's possible in web development.</p>
+<p className='text-gray-300 lg:text-[18px] text-[14px] text-center lg:w-[40%] sm:w-[60%] w-[80%] mx-auto mb-10 '>Discover my latest projects that reflect my dedication to crafting innovative solutions and redefining what&apos;s possible in web development.</p>
 
       </div>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
