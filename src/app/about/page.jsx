@@ -68,7 +68,8 @@ export default function About() {
         fill
         className="object-cover rounded-full transition duration-500"
       />
-      <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 rounded-full z-10" />
+      <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition duration-500 rounded-full z-10 hidden lg:block" />
+
     </div>
   </div>
 </div>

@@ -88,9 +88,9 @@ export default function Hero() {
           {/* Social Icons */}
           <div className="flex gap-6 ">
             {[
-              { icon: <FaLinkedin />, link: 'https://linkedin.com/in/yourprofile' },
-              { icon: <FaGithub />, link: 'https://github.com/yourusername' },
-              { icon: <FaFacebook />, link: 'https://facebook.com/yourprofile' },
+              { icon: <FaLinkedin />, link: 'https://www.linkedin.com/in/zohaib-hassan-5ab563277/' },
+              { icon: <FaGithub />, link: 'https://github.com/zohaibsundrali' },
+              { icon: <FaFacebook />, link: 'https://www.facebook.com/profile.php?id=61579320874889' },
             ].map((item, index) => (
               <a
                 key={index}

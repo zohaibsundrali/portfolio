@@ -5,21 +5,21 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 export default function Projects() {
   const projectList = [
     {
-      title: 'StickMan Multiplayer Game',
-      image: '/stickman.jpg',
-      tech: ['Phaser', 'Socket.IO', 'Supabase'],
+      title: 'Elais Portfolio',
+      image: '/stickman.png',
+      tech: ['Tailwind', 'Next.JS', 'JS'],
       description:
-        '2D autorunner game with perks and multiplayer lobbies built with Phaser, Socket.IO, and Supabase.',
+        'Developed a modern and responsive portfolio website using Next.js and Tailwind CSS, featuring smooth animations, optimized performance, and a professional dark-themed UI',
       features: [
-        'Multiplayer lobbies',
-        'Character transformation (car, gun, jumper)',
-        'Real-time obstacle collision',
-        'Score system & game-over screen',
+        'Responsive design (mobile, tablet, desktop)',
+        'Contact form with EmailJS integration',
+        'Optimized images & fast performance',
+        'Dark-themed modern UI',
         '+3 Features',
 
       ],
-      role: 'Frontend + Backend',
-      demoLink: '#',
+      role: 'Frontend',
+      demoLink: 'https://elais-portfolio.vercel.app/',
     },
     {
       title: 'Rental App',
@@ -51,7 +51,7 @@ export default function Projects() {
         '+3 Features',
       ],
       role: 'Frontend',
-      demoLink: '#',
+      demoLink: 'https://netflix-clone-nine-tan.vercel.app/',
     },
   ];
 
@@ -102,7 +102,7 @@ export default function Projects() {
                 rel="noopener noreferrer"
                 className="absolute inset-0 bg-black bg-opacity-60 text-white opacity-0 group-hover:opacity-100 flex justify-center items-center transition-opacity duration-300"
               >
-                <span className="flex items-center gap-2 text-sm bg-[#2debdb] px-4 py-2 rounded-full hover:bg-[#26dece] transition">
+                <span className="flex items-center gap-2 text-sm bg-[#c917c9] px-4 py-2 rounded-full hover:bg-[#bb1182] transition">
                   <FaExternalLinkAlt />
                   Live Demo
                 </span>
