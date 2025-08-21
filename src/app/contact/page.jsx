@@ -95,7 +95,7 @@ export default function Contact() {
 </div>
 
 
-        <p style={{ fontSize: '1.1rem', color: '#ccc', marginBottom: '40px' } } className='sm:text-[1.1rem] text-[0.7rem]'>
+        <p style={{ fontSize: '1.1rem', color: '#ccc', marginBottom: '40px' } } className='sm:text-[1.1rem] text-[0.6rem] w-[70%] mx-auto'>
           Have a project or idea? Let’s work together!
         </p>
 
