@@ -32,7 +32,7 @@ export default function Hero() {
   return (
 <section
   id="hero"
-  className="relative overflow-hidden bg-[#0D1224] text-white  lg:h-[90vh] md:h-[130vh] sm:h-[135vh] h-[190vh]"
+  className="relative overflow-hidden bg-[#0D1224] text-white  lg:h-[90vh] md:h-[130vh] sm:h-[135vh] h-[160vh]"
 >
 
 
