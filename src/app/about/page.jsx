@@ -32,7 +32,7 @@ export default function About() {
       
 
       {/* Container for About and Code side-by-side */}
-      <div className="flex flex-col md:flex-row gap-12 lg:gap-20 max-w-6xl mx-auto items-start">
+      <div className="flex flex-col md:flex-row gap-12 lg:gap-20 w-[90%] mx-auto justify-between items-start">
         {/* Left Side: About Text */}
 
 

@@ -103,7 +103,7 @@ export default function Skills() {
           display: 'flex',
           gap: '25px',
           margin: '0 auto',
-          width: '70%',
+          width: '90%',
           padding: '30px 0',
           overflowX: 'hidden',
          

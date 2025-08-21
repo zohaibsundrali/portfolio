@@ -99,12 +99,12 @@ export default function Contact() {
           Have a project or idea? Let’s work together!
         </p>
 
-       <div className="flex flex-col md:flex-row justify-center items-stretch flex-wrap gap-[30px] max-w-[1100px] mx-auto px-[20px]">
+       <div className="flex flex-col md:flex-row justify-center items-stretch flex-wrap gap-[30px] w-[90%] mx-auto px-[30px]">
   
   {/* Form */}
 <form
   onSubmit={handleSubmit}
-  className="flex-1 min-w-[300px] md:basis-[40%] bg-[#11152C] p-[30px] 
+  className="flex-1   bg-[#11152C] p-[30px] 
              rounded-[14px] shadow-[0_0_20px_rgba(0,0,0,0.5)] 
              text-white text-left md:ml-[30px]"
 >
@@ -155,7 +155,7 @@ export default function Contact() {
 
   {/* Contact Info */}
   <div
-  className="flex-1 min-w-[300px] md:basis-[35%] bg-[#11152C] p-[30px] 
+  className="flex-1  bg-[#11152C] p-[30px] 
              rounded-[14px] shadow-[0_0_20px_rgba(0,0,0,0.5)] 
              flex flex-col justify-center gap-[30px] md:ml-[30px]"
 >

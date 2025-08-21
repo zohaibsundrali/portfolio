@@ -31,7 +31,7 @@ export default function Navbar() {
 
   return (
     <header className="bg-[#0D1224] shadow w-full">
-      <nav className="w-[85%] mx-auto flex justify-between items-center py-4">
+      <nav className="w-[90%] mx-auto flex justify-between items-center py-4">
         {/* Logo */}
         <Link href="/">
           <span className="cursor-pointer text-[#16F2B3] text-[16px] sm:text-[24px] md:text-[30px] font-bold">

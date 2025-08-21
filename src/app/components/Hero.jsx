@@ -56,7 +56,7 @@ export default function Hero() {
   initial={{ opacity: 0, y: 40 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ duration: 1 }}
-  className="flex flex-col lg:flex-row items-start gap-10 pt-[100px] px-4 w-[90%] mx-auto relative z-10"
+  className="flex flex-col lg:flex-row items-start gap-10 pt-[100px]  w-[90%] mx-auto relative z-10"
 >
 
         {/* Left: Text */}
