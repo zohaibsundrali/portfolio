@@ -82,7 +82,7 @@ export default function Hero() {
                   {char}
                 </motion.span>
               ))}
-            </span>, Full-stack <span className='text-[#16F2B3]'>Software Developer</span> with modern <span className='text-[#EC4899]'>Tech expertise</span>.
+            </span>, Frontend  <span className='text-[#16F2B3]'>web Developer</span> with modern <span className='text-[#EC4899]'>Tech expertise</span>.
           </p>
 
           {/* Social Icons */}
